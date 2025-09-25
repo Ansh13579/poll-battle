@@ -3,13 +3,18 @@ const { Server } = require('socket.io');
 const { createServer } = require('http');
 const cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
 
 const app = express();
 app.use(cors());
+
+// Serve static files from React build
+app.use(express.static(path.join(__dirname, '../client/build')));
+
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: process.env.NODE_ENV === 'production' ? false : "http://localhost:3000",
     methods: ["GET", "POST"]
   }
 });
@@ -108,5 +113,11 @@ function startTimer(roomId) {
   }, 1000);
 }
 
-server.listen(4000, () => console.log('Server running on port 4000'));
+// Serve React app for any non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+});
+
+const PORT = process.env.PORT || 4000;
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 

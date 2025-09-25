@@ -1,30 +1,66 @@
-Project Description
+# Live Poll Battle 🗳️⚡
+
+A real-time live polling application where users can create and participate in voting battles with instant results!
+
+## 🚀 Live Demo
+
+**🌐 Deployed Application**: [https://poll-battle-live.herokuapp.com](https://poll-battle-live.herokuapp.com)
+
+*Note: The deployment link will be updated once deployed*
+
+## 📝 Project Description
+
 This application enables users to participate in live polls where they can see results update in real-time as votes come in. Users can create their own poll rooms or join existing ones using a unique room code. The application uses WebSockets for real-time communication between clients and the server.
-Setup Instructions
-Prerequisites
-Node.js (v14 or higher)
+## ✨ Features
 
-npm (v6 or higher)
+- 🔴 **Real-time Voting**: Live poll updates using Socket.io
+- 🏠 **Room System**: Create and join private poll rooms
+- ⏱️ **Timer System**: Configurable voting time limits
+- 📊 **Live Results**: See results update in real-time
+- 🎨 **Custom Polls**: Create polls with custom questions and options
+- 📱 **Mobile Responsive**: Works seamlessly on all devices
 
-Installation
-1. Clone the repository:
-    git clone https://github.com/your-username/poll-battle.git
-    
+## 🛠️ Setup Instructions
 
-2. Set up the backend:
-    npm install
-    npm install -g nodemon (optional)
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-3. Set up the frontend:
-    cd ../client
-    npm install
+### Installation
 
-Running the Application
-1. Start the backend server:    
-    nodemon index.js
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Ansh13579/poll-battle.git
+   cd poll-battle
+   ```
 
-2. Start the frontend application:
-    npm start
+2. **Install server dependencies:**
+   ```bash
+   cd server
+   npm install
+   ```
+
+3. **Install client dependencies:**
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+### Running the Application
+
+1. **Start the backend server:**
+   ```bash
+   cd server
+   node index.js
+   ```
+
+2. **Start the frontend application:**
+   ```bash
+   cd client
+   npm start
+   ```
+
+The application will be available at `http://localhost:3000`
 
 How the App is Structured
 Frontend (React)
