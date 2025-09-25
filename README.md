@@ -4,9 +4,14 @@ A real-time live polling application where users can create and participate in v
 
 ## 🚀 Live Demo
 
-**🌐 Deployed Application**: [https://poll-battle-live.herokuapp.com](https://poll-battle-live.herokuapp.com)
+**🌐 Frontend Demo**: [https://ansh13579.github.io/poll-battle](https://ansh13579.github.io/poll-battle)
 
-*Note: The deployment link will be updated once deployed*
+*Note: This GitHub Pages deployment shows the frontend only. For full functionality with real-time features, deploy the backend server to a service like Heroku, Railway, or Vercel.*
+
+### 🚀 Full Deployment Options:
+
+- **Frontend Only**: GitHub Pages (current link above)
+- **Full Stack**: Deploy to Heroku, Railway, or DigitalOcean for complete functionality
 
 ## 📝 Project Description
 
@@ -61,6 +66,32 @@ This application enables users to participate in live polls where they can see r
    ```
 
 The application will be available at `http://localhost:3000`
+
+## 🌐 Deployment
+
+### GitHub Pages (Frontend Only)
+The frontend is automatically deployed to GitHub Pages at: https://ansh13579.github.io/poll-battle
+
+### Full Stack Deployment
+
+For complete functionality with real-time features, deploy both frontend and backend:
+
+1. **Heroku** (Recommended):
+   ```bash
+   # Install Heroku CLI, then:
+   heroku create your-poll-app
+   git push heroku main
+   ```
+
+2. **Railway**:
+   - Connect your GitHub repo at [railway.app](https://railway.app)
+   - Railway will auto-deploy your Node.js app
+
+3. **Vercel**:
+   ```bash
+   npm i -g vercel
+   vercel
+   ```
 
 How the App is Structured
 Frontend (React)

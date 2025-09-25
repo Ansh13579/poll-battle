@@ -17,7 +17,14 @@
     "node": ">=14.0.0",
     "npm": ">=6.0.0"
   },
-  "keywords": ["poll", "realtime", "socketio", "react", "voting", "battle"],
+  "keywords": [
+    "poll",
+    "realtime",
+    "socketio",
+    "react",
+    "voting",
+    "battle"
+  ],
   "author": "Ansh13579",
   "license": "MIT",
   "repository": {
@@ -27,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/Ansh13579/poll-battle/issues"
   },
-  "homepage": "https://ansh13579.github.io/poll-battle"
+  "homepage": "https://ansh13579.github.io/poll-battle",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
