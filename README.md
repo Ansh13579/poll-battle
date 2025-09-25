@@ -48,15 +48,9 @@ node index.js
 cd client  
 npm start
 ```
-✅ This will automatically open your browser to: **http://localhost:3000**
+✅ This will automatically open your browser to the application
 
-### 🌐 Local Preview Links
-
-Once running, you can access:
-- **🎮 Main Application**: [http://localhost:3000](http://localhost:3000)
-- **🔧 Backend Server**: [http://localhost:4000](http://localhost:4000)
-
-### � What You'll See
+### 🎉 What You'll See
 
 1. **Landing Page**: Create a new poll room or join an existing one
 2. **Poll Room**: Vote in real-time and see results update instantly
@@ -75,7 +69,7 @@ Once running, you can access:
 - 📊 **Live Results**: See results update in real-time as people vote
 - 🎨 **Custom Polls**: Create polls with custom questions and options
 - 📱 **Mobile Responsive**: Works seamlessly on all devices
-- � **Multi-user**: Support for multiple users voting simultaneously
+- 👥 **Multi-user**: Support for multiple users voting simultaneously
 
 ## 🔧 Troubleshooting
 
@@ -166,8 +160,4 @@ Having issues? Need help?
 
 ---
 
-**Happy Polling!** 🗳️⚡    
-    
-
-    
-    
+**Happy Polling!** 🗳️⚡
