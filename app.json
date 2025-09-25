@@ -1,0 +1,26 @@
+{
+  "name": "Live Poll Battle",
+  "description": "Real-time live polling application with voting battles",
+  "repository": "https://github.com/Ansh13579/poll-battle",
+  "logo": "https://raw.githubusercontent.com/Ansh13579/poll-battle/main/client/public/favicon.ico",
+  "keywords": ["node", "express", "react", "socket.io", "realtime", "polling"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "echo 'No tests specified'"
+      }
+    }
+  }
+}

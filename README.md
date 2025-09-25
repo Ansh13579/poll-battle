@@ -4,14 +4,22 @@ A real-time live polling application where users can create and participate in v
 
 ## 🚀 Live Demo
 
-**🌐 Frontend Demo**: [https://ansh13579.github.io/poll-battle](https://ansh13579.github.io/poll-battle)
+**🌐 Live Demo**: [https://ansh13579.github.io/poll-battle](https://ansh13579.github.io/poll-battle)
 
-*Note: This GitHub Pages deployment shows the frontend only. For full functionality with real-time features, deploy the backend server to a service like Heroku, Railway, or Vercel.*
+*🎉 Frontend is now live on GitHub Pages! Click the link to try the interface.*
 
-### 🚀 Full Deployment Options:
+**⚠️ Note**: This deployment shows the frontend interface only. For full real-time polling functionality, the backend server needs to be deployed separately to a service like Heroku, Railway, or Vercel.
 
-- **Frontend Only**: GitHub Pages (current link above)
-- **Full Stack**: Deploy to Heroku, Railway, or DigitalOcean for complete functionality
+### 🚀 Deployment Status:
+
+- ✅ **Frontend Demo**: GitHub Pages (working interface)
+- 🔄 **Full Stack**: Ready for deployment to Heroku/Vercel/Railway
+
+### 🎯 What You Can Do Now:
+
+1. **Try the Interface**: Visit the GitHub Pages link to see the UI
+2. **Deploy Full Version**: Use the deployment guides below for real-time features
+3. **Local Development**: Run both frontend and backend locally for full functionality
 
 ## 📝 Project Description
 
@@ -76,7 +84,11 @@ The frontend is automatically deployed to GitHub Pages at: https://ansh13579.git
 
 For complete functionality with real-time features, deploy both frontend and backend:
 
-1. **Heroku** (Recommended):
+1. **Heroku** (One-Click Deploy):
+   
+   [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ansh13579/poll-battle)
+   
+   Or manually:
    ```bash
    # Install Heroku CLI, then:
    heroku create your-poll-app
@@ -87,7 +99,11 @@ For complete functionality with real-time features, deploy both frontend and bac
    - Connect your GitHub repo at [railway.app](https://railway.app)
    - Railway will auto-deploy your Node.js app
 
-3. **Vercel**:
+3. **Vercel** (One-Click Deploy):
+   
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ansh13579/poll-battle)
+   
+   Or manually:
    ```bash
    npm i -g vercel
    vercel
